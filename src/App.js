@@ -1,10 +1,11 @@
-
-
-function App() {
+import Lottery from './lottery'
+function App({children}) {
+  
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="App">
+    
+      <Lottery />
+    </div>
   );
 }
 
